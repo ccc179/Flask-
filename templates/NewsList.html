@@ -9,12 +9,13 @@
     </script>
 </head>
 <body>
-    <ul>
-        {% for news in news_list %}
-            <li>{{ news.n_title }} <br> {{ news.n_content }}</li>
-        {% endfor %}
-
-    </ul>
+{#    <ul>#}
+{#        {% for news in news_list %}#}
+{#            <li>{{ news.n_title }} <br> {{ news.n_content }}</li>#}
+{#        {% endfor %}#}
+{##}
+{#    </ul>#}
+{{ g.msg }}
 </body>
 <script type="text/javascript">
     {#document.write("<h2>动态的</h2>");#}

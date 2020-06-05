@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cbe86a4-f257-4e7b-a729-7c0b8e2cb826" name="Default Changelist" comment="" />
+    <list default="true" id="2cbe86a4-f257-4e7b-a729-7c0b8e2cb826" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/static/js/student_register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/code/HelloProperty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/code/SendSMS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/StudentLogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/StudentRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50b7487f-3a1a-4407-81f2-9251c5dc63fd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/50b7487f-3a1a-4407-81f2-9251c5dc63fd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/ext.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/ext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/views/HelloView.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/views/HelloView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/NewsList.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/NewsList.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +59,20 @@
       <list>
         <option value="Flask Main" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cQkja46xFzXcVw5nxya8KjT9oQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +92,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SpiderNew">
+  <component name="RunManager" selected="Python.SendSMS">
+    <configuration name="HelloProperty" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlaskProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doc/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/doc/code/HelloProperty.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SendSMS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FlaskProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doc/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/doc/code/SendSMS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SpiderNew" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FlaskProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,6 +198,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SendSMS" />
+        <item itemvalue="Python.HelloProperty" />
         <item itemvalue="Python.SpiderNew" />
         <item itemvalue="Python.to_16hex" />
       </list>
@@ -148,15 +215,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590468340720</updated>
-      <workItem from="1590468342578" duration="19083000" />
+      <workItem from="1590468342578" duration="44582000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FlaskProject$SendSMS.coverage" NAME="SendSMS Coverage Results" MODIFIED="1591033150969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doc/code" />
     <SUITE FILE_PATH="coverage/FlaskProject$SpiderNew.coverage" NAME="SpiderNew Coverage Results" MODIFIED="1590879851144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doc/code" />
+    <SUITE FILE_PATH="coverage/FlaskProject$HelloProperty.coverage" NAME="HelloProperty Coverage Results" MODIFIED="1590961812203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doc/code" />
     <SUITE FILE_PATH="coverage/FlaskProject$to_16hex.coverage" NAME="to_16hex Coverage Results" MODIFIED="1590878655534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doc" />
   </component>
 </project>

@@ -20,7 +20,22 @@ class Config:
     DEBUG = False
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+    SESSION_TYPE = 'redis'
+    CACHE_TYPE = 'redis'
     SECRET_KEY = "456748787adsdas45das4d57df5sd"
+
+    # MAIL_SERVER = 'localhost'
+    # MAIL_PORT = 25
+    # MAIL_USE_TLS = False
+    # MAIL_USE_SSL = False
+    # MAIL_DEBUG = app.debug
+    # MAIL_USERNAME = None
+    # MAIL_PASSWORD = None
+    # MAIL_DEFAULT_SENDER = 'WQK'
+    # MAIL_MAX_EMAILS = None
+    # MAIL_SUPPRESS_SEND = app.testing
+    # MAIL_ASCII_ATTACHMENTS = False
 
 
 class DevelopConfig(Config):
@@ -37,6 +52,13 @@ class DevelopConfig(Config):
     }
 
     SQLALCHEMY_DATABASE_URI = db_to_uri(db_info)
+
+    MAIL_SERVER = 'smtp.163.com'
+    MAIL_PORT = 465
+    MAIL_USE_SSL = True
+    MAIL_USERNAME = 'abc69317780'
+    MAIL_PASSWORD = 'WFENGENGEAEAQXAP'
+    MAIL_DEFAULT_SENDER = 'Flask Weekly <%s>' % "abc69317780@163.com"
 
 
 class TestConfig(Config):

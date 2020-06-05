@@ -961,38 +961,70 @@
     </collation>
     <table id="245" parent="5" name="alembic_version"/>
     <table id="246" parent="5" name="news"/>
-    <column id="247" parent="245" name="version_num">
+    <table id="247" parent="5" name="student"/>
+    <column id="248" parent="245" name="version_num">
       <Position>1</Position>
       <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="248" parent="245" name="PRIMARY">
+    <key id="249" parent="245" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version_num</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="249" parent="246" name="id">
+    <column id="250" parent="246" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="250" parent="246" name="n_title">
+    <column id="251" parent="246" name="n_title">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="251" parent="246" name="n_content">
+    <column id="252" parent="246" name="n_content">
       <Position>3</Position>
       <DataType>varchar(256)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="252" parent="246" name="PRIMARY">
+    <key id="253" parent="246" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
+    </key>
+    <column id="254" parent="247" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="255" parent="247" name="s_name">
+      <Position>2</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="256" parent="247" name="s_password">
+      <Position>3</Position>
+      <DataType>varchar(256)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="257" parent="247" name="s_name">
+      <ColNames>s_name</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="258" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="259" parent="247" name="s_name">
+      <ColNames>s_name</ColNames>
+      <UnderlyingIndexName>s_name</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>
